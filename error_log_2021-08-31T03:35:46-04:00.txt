@@ -1,0 +1,22 @@
+Press enter to install, or ctrl+c to quitEnabling a Copr repository. Please note that this repository is not part
+of the main distribution, and quality may vary.
+
+The Fedora Project does not exercise any power over the contents of
+this repository beyond the rules outlined in the Copr FAQ at
+<https://docs.pagure.org/copr.copr/user_documentation.html#what-i-can-build-in-copr>,
+and packages are not held to any quality or security level.
+
+Please do not file bug reports about these packages in Fedora
+Bugzilla. In case of problems, contact the owner of this repository.
+warning: /var/cache/dnf/rpmfusion-free-27856ae4f82a6a42/packages/rpmfusion-free-appstream-data-34-2.fc34.noarch.rpm: Header V3 RSA/SHA1 Signature, key ID d651ff2e: NOKEY
+Importing GPG key 0xD651FF2E:
+ Userid     : "RPM Fusion free repository for Fedora (2020) <rpmfusion-buildsys@lists.rpmfusion.org>"
+ Fingerprint: E9A4 91A3 DE24 7814 E7E0 67EA E06F 8ECD D651 FF2E
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-34
+warning: /var/cache/dnf/rpmfusion-nonfree-updates-98ee4f6c5bd54189/packages/rpmfusion-nonfree-appstream-data-34-2.fc34.noarch.rpm: Header V3 RSA/SHA1 Signature, key ID 94843c65: NOKEY
+Importing GPG key 0x94843C65:
+ Userid     : "RPM Fusion nonfree repository for Fedora (2020) <rpmfusion-buildsys@lists.rpmfusion.org>"
+ Fingerprint: 79BD B88F 9BBF 7391 0FD4 095B 6A2A F961 9484 3C65
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-34
+uavc:  op=load_policy lsm=selinux seqno=2 res=1uavc:  op=load_policy lsm=selinux seqno=3 res=1uavc:  op=load_policy lsm=selinux seqno=4 res=1uavc:  op=load_policy lsm=selinux seqno=6 res=1Error in <unknown> scriptlet in rpm package container-selinux
+Error: Unable to find a match: postman postgres pgadmin

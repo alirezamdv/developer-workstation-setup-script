@@ -1,0 +1,2 @@
+Press enter to install, or ctrl+c to quitcurl: (7) Couldn't connect to server
+error: https://packages.microsoft.com/keys/microsoft.asc: import read failed(2).

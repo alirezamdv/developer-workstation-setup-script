@@ -91,24 +91,24 @@ rpm_packages_to_remove=(
 
 rpm_packages_to_install=(
     ImageMagick
-    borgbackup
-    # code
+    # borgbackup
+    code
     ffmpeg
     fuse-exfat
     gcc-c++
     gh
     gnome-tweaks
     keepassxc
-    lazygit
-    # libva-intel-driver
+    # lazygit
+    libva-intel-driver
     # mesa-vdpau-drivers
     mediainfo
     mpv
     nnn
     nodejs
     optipng
-    podman
-    podman-docker
+    # podman
+    # podman-docker
     stow
     thunderbird
     transmission-gtk
@@ -202,6 +202,9 @@ elif [ "$ID" == "fedora" ]; then
             krita
             lshw
             mkvtoolnix-gui
+            docker-ce.x86_64
+            docker-ce-cli.x86_64
+            docker-ce-rootless-extras.x86_64
             pandoc
             ripgrep
             shfmt
