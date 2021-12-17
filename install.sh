@@ -202,9 +202,7 @@ elif [ "$ID" == "fedora" ]; then
             krita
             lshw
             mkvtoolnix-gui
-            docker-ce.x86_64
-            docker-ce-cli.x86_64
-            docker-ce-rootless-extras.x86_64
+            docker
             pandoc
             ripgrep
             shfmt
